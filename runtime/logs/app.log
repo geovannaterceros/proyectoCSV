@@ -1,0 +1,1573 @@
+2018-02-12 02:26:34 [-][-][-][error][yii\console\UnknownCommandException] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "server".' in /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('server', Array)
+#1 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('server', Array)
+#2 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /home/geovanna/csv/programaYii/proyectoCSV/yii(20): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\UnknownCommandException' with message 'Unknown command "server".' in /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('server', Array)
+#1 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /home/geovanna/csv/programaYii/proyectoCSV/yii(20): yii\base\Application->run()
+#3 {main}
+2018-02-12 02:26:33 [-][-][-][info][application] $_SERVER = [
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'XDG_MENU_PREFIX' => 'xfce-'
+    'PLATFORMTOOL_HOME' => '/home/geovanna/instaladores/sdk-android/android-sdk-linux/platform-tools'
+    'LANG' => 'en_US.UTF-8'
+    'DISPLAY' => ':0.0'
+    'COMP_WORDBREAKS' => ' 	
+\"\'><;|&(:'
+    'ANDROIDTOOL_HOME' => '/home/geovanna/instaladores/sdk-android/android-sdk-linux/tools'
+    'OLDPWD' => '/home/geovanna/csv/programaYii'
+    'COLORTERM' => 'xfce4-terminal'
+    'JAVA_HOME' => '/home/geovanna/instaladores/jdk-android/jdk1.8.0_60'
+    'ROBOMONGO_HOME' => '/home/geovanna/instaladores/robomongo/robomongo-0.9.0-rc8-linux-x86_64-c113244/bin'
+    'XDG_VTNR' => '1'
+    'SSH_AUTH_SOCK' => '/tmp/gpg-xxR5RZ/S.gpg-agent.ssh'
+    'GLADE_CATALOG_PATH' => ':'
+    'XDG_SESSION_ID' => '1'
+    'HUSHLOGIN' => 'FALSE'
+    'USER' => 'geovanna'
+    'GLADE_MODULE_PATH' => ':'
+    'DESKTOP_SESSION' => 'xfce'
+    'PHANTON' => '/user/local/share/phantomjs'
+    'PWD' => '/home/geovanna/csv/programaYii/proyectoCSV'
+    'HOME' => '/home/geovanna'
+    'SSH_AGENT_PID' => '1792'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share'
+    'PHP_HOME' => '/usr/local/php7/bin'
+    'NPMGLOBAL_HOME' => '/home/geovanna/.npm-global/bin'
+    'GLADE_PIXMAP_PATH' => ':'
+    'MAIL' => '/var/mail/geovanna'
+    'WINDOWPATH' => '1'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'XDG_CURRENT_DESKTOP' => 'XFCE'
+    'GPG_AGENT_INFO' => '/tmp/gpg-9Gf87s/S.gpg-agent:1792:1'
+    'XDG_SEAT' => 'seat0'
+    'SHLVL' => '2'
+    'WINDOWID' => '20971524'
+    'LOGNAME' => 'geovanna'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:abstract=/tmp/dbus-eBYqt7yHre,guid=6d070867db2180dffb3c2e8f5a807a05'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'XAUTHORITY' => '/home/geovanna/.Xauthority'
+    'XDG_CONFIG_DIRS' => '/etc/xdg'
+    'PATH' => '/home/geovanna/anaconda3/bin:/home/geovanna/anaconda3/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/php7/bin:/home/geovanna/instaladores/robomongo/robomongo-0.9.0-rc8-linux-x86_64-c113244/bin:/home/geovanna/instaladores/jdk-android/jdk1.8.0_60:/home/geovanna/instaladores/sdk-android/android-sdk-linux/tools:/home/geovanna/instaladores/sdk-android/android-sdk-linux/platform-tools:/home/geovanna/.npm-global/bin:/user/local/share/phantomjs:/usr/local/php7/bin:/home/geovanna/instaladores/robomongo/robomongo-0.9.0-rc8-linux-x86_64-c113244/bin:/home/geovanna/instaladores/jdk-android/jdk1.8.0_60:/home/geovanna/instaladores/sdk-android/android-sdk-linux/tools:/home/geovanna/instaladores/sdk-android/android-sdk-linux/platform-tools:/home/geovanna/.npm-global/bin:/user/local/share/phantomjs'
+    'SESSION_MANAGER' => 'local/debian:@/tmp/.ICE-unix/1780,unix/debian:/tmp/.ICE-unix/1780'
+    '_' => '/usr/bin/php'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1518402392.9038
+    'REQUEST_TIME' => 1518402392
+    'argv' => [
+        0 => 'yii'
+        1 => 'server'
+    ]
+    'argc' => 2
+]
+2018-02-13 01:06:31 [::1][-][0o7n2ruunuo1qo85uvs96kovu3][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected end of file, expecting function (T_FUNCTION)' in /home/geovanna/csv/programaYii/proyectoCSV/controllers/SiteController.php:133
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-02-13 01:06:30 [::1][-][0o7n2ruunuo1qo85uvs96kovu3][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1560752447.1487779982'
+    'PHPSESSID' => '0o7n2ruunuo1qo85uvs96kovu3'
+    '_csrf' => '78279e6b57991a39430bd6d7c40f9d0606d8e3d270370ccef14b6a14ff80fa20a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"FWyQgPT8wk0Ab9ToGYvbAIfQuvtIhkxh\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/geovanna/csv/programaYii/proyectoCSV/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '54900'
+    'SERVER_SOFTWARE' => 'PHP 5.6.33-0+deb8u1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/geovanna/csv/programaYii/proyectoCSV/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_ga=GA1.1.1560752447.1487779982; PHPSESSID=0o7n2ruunuo1qo85uvs96kovu3; _csrf=78279e6b57991a39430bd6d7c40f9d0606d8e3d270370ccef14b6a14ff80fa20a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22FWyQgPT8wk0Ab9ToGYvbAIfQuvtIhkxh%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1518483991.0937
+    'REQUEST_TIME' => 1518483991
+]
+2018-02-13 01:07:24 [::1][-][0o7n2ruunuo1qo85uvs96kovu3][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected end of file, expecting function (T_FUNCTION)' in /home/geovanna/csv/programaYii/proyectoCSV/controllers/SiteController.php:133
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-02-13 01:07:24 [::1][-][0o7n2ruunuo1qo85uvs96kovu3][info][application] $_GET = [
+    'r' => 'site/say'
+    'message' => 'hola'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1560752447.1487779982'
+    'PHPSESSID' => '0o7n2ruunuo1qo85uvs96kovu3'
+    '_csrf' => '78279e6b57991a39430bd6d7c40f9d0606d8e3d270370ccef14b6a14ff80fa20a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"FWyQgPT8wk0Ab9ToGYvbAIfQuvtIhkxh\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/geovanna/csv/programaYii/proyectoCSV/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '55128'
+    'SERVER_SOFTWARE' => 'PHP 5.6.33-0+deb8u1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=site%2Fsay&message=hola'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/geovanna/csv/programaYii/proyectoCSV/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=site%2Fsay&message=hola'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_ga=GA1.1.1560752447.1487779982; PHPSESSID=0o7n2ruunuo1qo85uvs96kovu3; _csrf=78279e6b57991a39430bd6d7c40f9d0606d8e3d270370ccef14b6a14ff80fa20a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22FWyQgPT8wk0Ab9ToGYvbAIfQuvtIhkxh%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1518484044.6775
+    'REQUEST_TIME' => 1518484044
+]
+2018-02-13 01:07:59 [::1][-][0o7n2ruunuo1qo85uvs96kovu3][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected end of file, expecting function (T_FUNCTION)' in /home/geovanna/csv/programaYii/proyectoCSV/controllers/SiteController.php:133
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-02-13 01:07:59 [::1][-][0o7n2ruunuo1qo85uvs96kovu3][info][application] $_GET = [
+    'r' => 'site/say'
+    'message' => 'hello'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1560752447.1487779982'
+    'PHPSESSID' => '0o7n2ruunuo1qo85uvs96kovu3'
+    '_csrf' => '78279e6b57991a39430bd6d7c40f9d0606d8e3d270370ccef14b6a14ff80fa20a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"FWyQgPT8wk0Ab9ToGYvbAIfQuvtIhkxh\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/geovanna/csv/programaYii/proyectoCSV/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '55276'
+    'SERVER_SOFTWARE' => 'PHP 5.6.33-0+deb8u1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=site%2Fsay&message=hello'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/geovanna/csv/programaYii/proyectoCSV/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=site%2Fsay&message=hello'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_ga=GA1.1.1560752447.1487779982; PHPSESSID=0o7n2ruunuo1qo85uvs96kovu3; _csrf=78279e6b57991a39430bd6d7c40f9d0606d8e3d270370ccef14b6a14ff80fa20a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22FWyQgPT8wk0Ab9ToGYvbAIfQuvtIhkxh%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1518484079.7377
+    'REQUEST_TIME' => 1518484079
+]
+2018-02-13 01:08:11 [::1][-][0o7n2ruunuo1qo85uvs96kovu3][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected end of file, expecting function (T_FUNCTION)' in /home/geovanna/csv/programaYii/proyectoCSV/controllers/SiteController.php:133
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-02-13 01:08:11 [::1][-][0o7n2ruunuo1qo85uvs96kovu3][info][application] $_GET = [
+    'r' => 'site/say'
+    'message' => 'say'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1560752447.1487779982'
+    'PHPSESSID' => '0o7n2ruunuo1qo85uvs96kovu3'
+    '_csrf' => '78279e6b57991a39430bd6d7c40f9d0606d8e3d270370ccef14b6a14ff80fa20a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"FWyQgPT8wk0Ab9ToGYvbAIfQuvtIhkxh\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/geovanna/csv/programaYii/proyectoCSV/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '55330'
+    'SERVER_SOFTWARE' => 'PHP 5.6.33-0+deb8u1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=site%2Fsay&message=say'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/geovanna/csv/programaYii/proyectoCSV/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=site%2Fsay&message=say'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_ga=GA1.1.1560752447.1487779982; PHPSESSID=0o7n2ruunuo1qo85uvs96kovu3; _csrf=78279e6b57991a39430bd6d7c40f9d0606d8e3d270370ccef14b6a14ff80fa20a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22FWyQgPT8wk0Ab9ToGYvbAIfQuvtIhkxh%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1518484091.3982
+    'REQUEST_TIME' => 1518484091
+]
+2018-02-14 19:33:55 [-][-][-][error][yii\console\UnknownCommandException] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "giic/model".' in /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('giic/model', Array)
+#1 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('giic/model', Array)
+#2 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /home/geovanna/csv/programaYii/proyectoCSV/yii(20): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\UnknownCommandException' with message 'Unknown command "giic/model".' in /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('giic/model', Array)
+#1 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /home/geovanna/csv/programaYii/proyectoCSV/yii(20): yii\base\Application->run()
+#3 {main}
+2018-02-14 19:33:55 [-][-][-][info][application] $_SERVER = [
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'XDG_MENU_PREFIX' => 'xfce-'
+    'PLATFORMTOOL_HOME' => '/home/geovanna/instaladores/sdk-android/android-sdk-linux/platform-tools'
+    'LANG' => 'en_US.UTF-8'
+    'DISPLAY' => ':0.0'
+    'COMP_WORDBREAKS' => ' 	
+\"\'><;|&(:'
+    'ANDROIDTOOL_HOME' => '/home/geovanna/instaladores/sdk-android/android-sdk-linux/tools'
+    'COLORTERM' => 'xfce4-terminal'
+    'JAVA_HOME' => '/home/geovanna/instaladores/jdk-android/jdk1.8.0_60'
+    'ROBOMONGO_HOME' => '/home/geovanna/instaladores/robomongo/robomongo-0.9.0-rc8-linux-x86_64-c113244/bin'
+    'XDG_VTNR' => '1'
+    'SSH_AUTH_SOCK' => '/tmp/gpg-4Ub8ud/S.gpg-agent.ssh'
+    'GLADE_CATALOG_PATH' => ':'
+    'XDG_SESSION_ID' => '1'
+    'HUSHLOGIN' => 'FALSE'
+    'USER' => 'geovanna'
+    'GLADE_MODULE_PATH' => ':'
+    'DESKTOP_SESSION' => 'xfce'
+    'PHANTON' => '/user/local/share/phantomjs'
+    'PWD' => '/home/geovanna/csv/programaYii/proyectoCSV'
+    'HOME' => '/home/geovanna'
+    'SSH_AGENT_PID' => '1788'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share'
+    'PHP_HOME' => '/usr/local/php7/bin'
+    'NPMGLOBAL_HOME' => '/home/geovanna/.npm-global/bin'
+    'GLADE_PIXMAP_PATH' => ':'
+    'MAIL' => '/var/mail/geovanna'
+    'WINDOWPATH' => '1'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'XDG_CURRENT_DESKTOP' => 'XFCE'
+    'GPG_AGENT_INFO' => '/tmp/gpg-jYnlR7/S.gpg-agent:1788:1'
+    'XDG_SEAT' => 'seat0'
+    'SHLVL' => '2'
+    'WINDOWID' => '20971524'
+    'LOGNAME' => 'geovanna'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:abstract=/tmp/dbus-9CAyCBg1RD,guid=9c452c86ee11f0b8940ec8225a846bf9'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'XAUTHORITY' => '/home/geovanna/.Xauthority'
+    'XDG_CONFIG_DIRS' => '/etc/xdg'
+    'PATH' => '/home/geovanna/anaconda3/bin:/home/geovanna/anaconda3/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/php7/bin:/home/geovanna/instaladores/robomongo/robomongo-0.9.0-rc8-linux-x86_64-c113244/bin:/home/geovanna/instaladores/jdk-android/jdk1.8.0_60:/home/geovanna/instaladores/sdk-android/android-sdk-linux/tools:/home/geovanna/instaladores/sdk-android/android-sdk-linux/platform-tools:/home/geovanna/.npm-global/bin:/user/local/share/phantomjs:/usr/local/php7/bin:/home/geovanna/instaladores/robomongo/robomongo-0.9.0-rc8-linux-x86_64-c113244/bin:/home/geovanna/instaladores/jdk-android/jdk1.8.0_60:/home/geovanna/instaladores/sdk-android/android-sdk-linux/tools:/home/geovanna/instaladores/sdk-android/android-sdk-linux/platform-tools:/home/geovanna/.npm-global/bin:/user/local/share/phantomjs'
+    'SESSION_MANAGER' => 'local/debian:@/tmp/.ICE-unix/1776,unix/debian:/tmp/.ICE-unix/1776'
+    '_' => './yii'
+    'OLDPWD' => '/home/geovanna/csv/programaYii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1518636835.0607
+    'REQUEST_TIME' => 1518636835
+    'argv' => [
+        0 => './yii'
+        1 => 'giic/model'
+        2 => '--template=default'
+        3 => '--tableName=post'
+        4 => '--modelClass=Posts'
+    ]
+    'argc' => 5
+]
+2018-02-14 19:41:46 [-][-][-][error][yii\console\Exception] exception 'yii\console\Exception' with message 'Unknown option: --controller' in /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/console/Controller.php:126
+Stack trace:
+#0 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('controller', Array)
+#1 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('gii/controller', Array)
+#2 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('gii/controller', Array)
+#3 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#4 /home/geovanna/csv/programaYii/proyectoCSV/yii(20): yii\base\Application->run()
+#5 {main}
+2018-02-14 19:41:46 [-][-][-][info][application] $_SERVER = [
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'XDG_MENU_PREFIX' => 'xfce-'
+    'PLATFORMTOOL_HOME' => '/home/geovanna/instaladores/sdk-android/android-sdk-linux/platform-tools'
+    'LANG' => 'en_US.UTF-8'
+    'DISPLAY' => ':0.0'
+    'COMP_WORDBREAKS' => ' 	
+\"\'><;|&(:'
+    'ANDROIDTOOL_HOME' => '/home/geovanna/instaladores/sdk-android/android-sdk-linux/tools'
+    'COLORTERM' => 'xfce4-terminal'
+    'JAVA_HOME' => '/home/geovanna/instaladores/jdk-android/jdk1.8.0_60'
+    'ROBOMONGO_HOME' => '/home/geovanna/instaladores/robomongo/robomongo-0.9.0-rc8-linux-x86_64-c113244/bin'
+    'XDG_VTNR' => '1'
+    'SSH_AUTH_SOCK' => '/tmp/gpg-4Ub8ud/S.gpg-agent.ssh'
+    'GLADE_CATALOG_PATH' => ':'
+    'XDG_SESSION_ID' => '1'
+    'HUSHLOGIN' => 'FALSE'
+    'USER' => 'geovanna'
+    'GLADE_MODULE_PATH' => ':'
+    'DESKTOP_SESSION' => 'xfce'
+    'PHANTON' => '/user/local/share/phantomjs'
+    'PWD' => '/home/geovanna/csv/programaYii/proyectoCSV'
+    'HOME' => '/home/geovanna'
+    'SSH_AGENT_PID' => '1788'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share'
+    'PHP_HOME' => '/usr/local/php7/bin'
+    'NPMGLOBAL_HOME' => '/home/geovanna/.npm-global/bin'
+    'GLADE_PIXMAP_PATH' => ':'
+    'MAIL' => '/var/mail/geovanna'
+    'WINDOWPATH' => '1'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'XDG_CURRENT_DESKTOP' => 'XFCE'
+    'GPG_AGENT_INFO' => '/tmp/gpg-jYnlR7/S.gpg-agent:1788:1'
+    'XDG_SEAT' => 'seat0'
+    'SHLVL' => '2'
+    'WINDOWID' => '20971524'
+    'LOGNAME' => 'geovanna'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:abstract=/tmp/dbus-9CAyCBg1RD,guid=9c452c86ee11f0b8940ec8225a846bf9'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'XAUTHORITY' => '/home/geovanna/.Xauthority'
+    'XDG_CONFIG_DIRS' => '/etc/xdg'
+    'PATH' => '/home/geovanna/anaconda3/bin:/home/geovanna/anaconda3/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/php7/bin:/home/geovanna/instaladores/robomongo/robomongo-0.9.0-rc8-linux-x86_64-c113244/bin:/home/geovanna/instaladores/jdk-android/jdk1.8.0_60:/home/geovanna/instaladores/sdk-android/android-sdk-linux/tools:/home/geovanna/instaladores/sdk-android/android-sdk-linux/platform-tools:/home/geovanna/.npm-global/bin:/user/local/share/phantomjs:/usr/local/php7/bin:/home/geovanna/instaladores/robomongo/robomongo-0.9.0-rc8-linux-x86_64-c113244/bin:/home/geovanna/instaladores/jdk-android/jdk1.8.0_60:/home/geovanna/instaladores/sdk-android/android-sdk-linux/tools:/home/geovanna/instaladores/sdk-android/android-sdk-linux/platform-tools:/home/geovanna/.npm-global/bin:/user/local/share/phantomjs'
+    'SESSION_MANAGER' => 'local/debian:@/tmp/.ICE-unix/1776,unix/debian:/tmp/.ICE-unix/1776'
+    '_' => './yii'
+    'OLDPWD' => '/home/geovanna/csv/programaYii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1518637306.3363
+    'REQUEST_TIME' => 1518637306
+    'argv' => [
+        0 => './yii'
+        1 => 'gii/controller'
+        2 => '--template=default'
+        3 => '--controller=PostsController'
+    ]
+    'argc' => 4
+]
+2018-02-14 19:43:39 [-][-][-][error][yii\console\Exception] exception 'yii\console\Exception' with message 'Unknown option: --controller' in /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/console/Controller.php:126
+Stack trace:
+#0 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('controller', Array)
+#1 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('gii/controller', Array)
+#2 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('gii/controller', Array)
+#3 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#4 /home/geovanna/csv/programaYii/proyectoCSV/yii(20): yii\base\Application->run()
+#5 {main}
+2018-02-14 19:43:39 [-][-][-][info][application] $_SERVER = [
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'XDG_MENU_PREFIX' => 'xfce-'
+    'PLATFORMTOOL_HOME' => '/home/geovanna/instaladores/sdk-android/android-sdk-linux/platform-tools'
+    'LANG' => 'en_US.UTF-8'
+    'DISPLAY' => ':0.0'
+    'COMP_WORDBREAKS' => ' 	
+\"\'><;|&(:'
+    'ANDROIDTOOL_HOME' => '/home/geovanna/instaladores/sdk-android/android-sdk-linux/tools'
+    'COLORTERM' => 'xfce4-terminal'
+    'JAVA_HOME' => '/home/geovanna/instaladores/jdk-android/jdk1.8.0_60'
+    'ROBOMONGO_HOME' => '/home/geovanna/instaladores/robomongo/robomongo-0.9.0-rc8-linux-x86_64-c113244/bin'
+    'XDG_VTNR' => '1'
+    'SSH_AUTH_SOCK' => '/tmp/gpg-4Ub8ud/S.gpg-agent.ssh'
+    'GLADE_CATALOG_PATH' => ':'
+    'XDG_SESSION_ID' => '1'
+    'HUSHLOGIN' => 'FALSE'
+    'USER' => 'geovanna'
+    'GLADE_MODULE_PATH' => ':'
+    'DESKTOP_SESSION' => 'xfce'
+    'PHANTON' => '/user/local/share/phantomjs'
+    'PWD' => '/home/geovanna/csv/programaYii/proyectoCSV'
+    'HOME' => '/home/geovanna'
+    'SSH_AGENT_PID' => '1788'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share'
+    'PHP_HOME' => '/usr/local/php7/bin'
+    'NPMGLOBAL_HOME' => '/home/geovanna/.npm-global/bin'
+    'GLADE_PIXMAP_PATH' => ':'
+    'MAIL' => '/var/mail/geovanna'
+    'WINDOWPATH' => '1'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'XDG_CURRENT_DESKTOP' => 'XFCE'
+    'GPG_AGENT_INFO' => '/tmp/gpg-jYnlR7/S.gpg-agent:1788:1'
+    'XDG_SEAT' => 'seat0'
+    'SHLVL' => '2'
+    'WINDOWID' => '20971524'
+    'LOGNAME' => 'geovanna'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:abstract=/tmp/dbus-9CAyCBg1RD,guid=9c452c86ee11f0b8940ec8225a846bf9'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'XAUTHORITY' => '/home/geovanna/.Xauthority'
+    'XDG_CONFIG_DIRS' => '/etc/xdg'
+    'PATH' => '/home/geovanna/anaconda3/bin:/home/geovanna/anaconda3/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/php7/bin:/home/geovanna/instaladores/robomongo/robomongo-0.9.0-rc8-linux-x86_64-c113244/bin:/home/geovanna/instaladores/jdk-android/jdk1.8.0_60:/home/geovanna/instaladores/sdk-android/android-sdk-linux/tools:/home/geovanna/instaladores/sdk-android/android-sdk-linux/platform-tools:/home/geovanna/.npm-global/bin:/user/local/share/phantomjs:/usr/local/php7/bin:/home/geovanna/instaladores/robomongo/robomongo-0.9.0-rc8-linux-x86_64-c113244/bin:/home/geovanna/instaladores/jdk-android/jdk1.8.0_60:/home/geovanna/instaladores/sdk-android/android-sdk-linux/tools:/home/geovanna/instaladores/sdk-android/android-sdk-linux/platform-tools:/home/geovanna/.npm-global/bin:/user/local/share/phantomjs'
+    'SESSION_MANAGER' => 'local/debian:@/tmp/.ICE-unix/1776,unix/debian:/tmp/.ICE-unix/1776'
+    '_' => './yii'
+    'OLDPWD' => '/home/geovanna/csv/programaYii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1518637419.4234
+    'REQUEST_TIME' => 1518637419
+    'argv' => [
+        0 => './yii'
+        1 => 'gii/controller'
+        2 => '--template=default'
+        3 => '--controller=PostsController'
+    ]
+    'argc' => 4
+]
+2018-02-14 19:46:04 [-][-][-][error][yii\console\Exception] exception 'yii\console\Exception' with message 'Unknown option: --template' in /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/console/Controller.php:126
+Stack trace:
+#0 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('controllers', Array)
+#1 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('gii/controllers', Array)
+#2 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('gii/controllers', Array)
+#3 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#4 /home/geovanna/csv/programaYii/proyectoCSV/yii(20): yii\base\Application->run()
+#5 {main}
+2018-02-14 19:46:04 [-][-][-][info][application] $_SERVER = [
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'XDG_MENU_PREFIX' => 'xfce-'
+    'PLATFORMTOOL_HOME' => '/home/geovanna/instaladores/sdk-android/android-sdk-linux/platform-tools'
+    'LANG' => 'en_US.UTF-8'
+    'DISPLAY' => ':0.0'
+    'COMP_WORDBREAKS' => ' 	
+\"\'><;|&(:'
+    'ANDROIDTOOL_HOME' => '/home/geovanna/instaladores/sdk-android/android-sdk-linux/tools'
+    'COLORTERM' => 'xfce4-terminal'
+    'JAVA_HOME' => '/home/geovanna/instaladores/jdk-android/jdk1.8.0_60'
+    'ROBOMONGO_HOME' => '/home/geovanna/instaladores/robomongo/robomongo-0.9.0-rc8-linux-x86_64-c113244/bin'
+    'XDG_VTNR' => '1'
+    'SSH_AUTH_SOCK' => '/tmp/gpg-4Ub8ud/S.gpg-agent.ssh'
+    'GLADE_CATALOG_PATH' => ':'
+    'XDG_SESSION_ID' => '1'
+    'HUSHLOGIN' => 'FALSE'
+    'USER' => 'geovanna'
+    'GLADE_MODULE_PATH' => ':'
+    'DESKTOP_SESSION' => 'xfce'
+    'PHANTON' => '/user/local/share/phantomjs'
+    'PWD' => '/home/geovanna/csv/programaYii/proyectoCSV'
+    'HOME' => '/home/geovanna'
+    'SSH_AGENT_PID' => '1788'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share'
+    'PHP_HOME' => '/usr/local/php7/bin'
+    'NPMGLOBAL_HOME' => '/home/geovanna/.npm-global/bin'
+    'GLADE_PIXMAP_PATH' => ':'
+    'MAIL' => '/var/mail/geovanna'
+    'WINDOWPATH' => '1'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'XDG_CURRENT_DESKTOP' => 'XFCE'
+    'GPG_AGENT_INFO' => '/tmp/gpg-jYnlR7/S.gpg-agent:1788:1'
+    'XDG_SEAT' => 'seat0'
+    'SHLVL' => '2'
+    'WINDOWID' => '20971524'
+    'LOGNAME' => 'geovanna'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:abstract=/tmp/dbus-9CAyCBg1RD,guid=9c452c86ee11f0b8940ec8225a846bf9'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'XAUTHORITY' => '/home/geovanna/.Xauthority'
+    'XDG_CONFIG_DIRS' => '/etc/xdg'
+    'PATH' => '/home/geovanna/anaconda3/bin:/home/geovanna/anaconda3/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/php7/bin:/home/geovanna/instaladores/robomongo/robomongo-0.9.0-rc8-linux-x86_64-c113244/bin:/home/geovanna/instaladores/jdk-android/jdk1.8.0_60:/home/geovanna/instaladores/sdk-android/android-sdk-linux/tools:/home/geovanna/instaladores/sdk-android/android-sdk-linux/platform-tools:/home/geovanna/.npm-global/bin:/user/local/share/phantomjs:/usr/local/php7/bin:/home/geovanna/instaladores/robomongo/robomongo-0.9.0-rc8-linux-x86_64-c113244/bin:/home/geovanna/instaladores/jdk-android/jdk1.8.0_60:/home/geovanna/instaladores/sdk-android/android-sdk-linux/tools:/home/geovanna/instaladores/sdk-android/android-sdk-linux/platform-tools:/home/geovanna/.npm-global/bin:/user/local/share/phantomjs'
+    'SESSION_MANAGER' => 'local/debian:@/tmp/.ICE-unix/1776,unix/debian:/tmp/.ICE-unix/1776'
+    '_' => './yii'
+    'OLDPWD' => '/home/geovanna/csv/programaYii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1518637564.8465
+    'REQUEST_TIME' => 1518637564
+    'argv' => [
+        0 => './yii'
+        1 => 'gii/controllers'
+        2 => '--template=default'
+        3 => '--controller=PostsController'
+    ]
+    'argc' => 4
+]
+2018-02-14 19:46:38 [-][-][-][error][yii\console\Exception] exception 'yii\console\Exception' with message 'Unknown option: --controller' in /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/console/Controller.php:126
+Stack trace:
+#0 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('controllers', Array)
+#1 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('gii/controllers', Array)
+#2 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('gii/controllers', Array)
+#3 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#4 /home/geovanna/csv/programaYii/proyectoCSV/yii(20): yii\base\Application->run()
+#5 {main}
+2018-02-14 19:46:38 [-][-][-][info][application] $_SERVER = [
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'XDG_MENU_PREFIX' => 'xfce-'
+    'PLATFORMTOOL_HOME' => '/home/geovanna/instaladores/sdk-android/android-sdk-linux/platform-tools'
+    'LANG' => 'en_US.UTF-8'
+    'DISPLAY' => ':0.0'
+    'COMP_WORDBREAKS' => ' 	
+\"\'><;|&(:'
+    'ANDROIDTOOL_HOME' => '/home/geovanna/instaladores/sdk-android/android-sdk-linux/tools'
+    'COLORTERM' => 'xfce4-terminal'
+    'JAVA_HOME' => '/home/geovanna/instaladores/jdk-android/jdk1.8.0_60'
+    'ROBOMONGO_HOME' => '/home/geovanna/instaladores/robomongo/robomongo-0.9.0-rc8-linux-x86_64-c113244/bin'
+    'XDG_VTNR' => '1'
+    'SSH_AUTH_SOCK' => '/tmp/gpg-4Ub8ud/S.gpg-agent.ssh'
+    'GLADE_CATALOG_PATH' => ':'
+    'XDG_SESSION_ID' => '1'
+    'HUSHLOGIN' => 'FALSE'
+    'USER' => 'geovanna'
+    'GLADE_MODULE_PATH' => ':'
+    'DESKTOP_SESSION' => 'xfce'
+    'PHANTON' => '/user/local/share/phantomjs'
+    'PWD' => '/home/geovanna/csv/programaYii/proyectoCSV'
+    'HOME' => '/home/geovanna'
+    'SSH_AGENT_PID' => '1788'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share'
+    'PHP_HOME' => '/usr/local/php7/bin'
+    'NPMGLOBAL_HOME' => '/home/geovanna/.npm-global/bin'
+    'GLADE_PIXMAP_PATH' => ':'
+    'MAIL' => '/var/mail/geovanna'
+    'WINDOWPATH' => '1'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'XDG_CURRENT_DESKTOP' => 'XFCE'
+    'GPG_AGENT_INFO' => '/tmp/gpg-jYnlR7/S.gpg-agent:1788:1'
+    'XDG_SEAT' => 'seat0'
+    'SHLVL' => '2'
+    'WINDOWID' => '20971524'
+    'LOGNAME' => 'geovanna'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:abstract=/tmp/dbus-9CAyCBg1RD,guid=9c452c86ee11f0b8940ec8225a846bf9'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'XAUTHORITY' => '/home/geovanna/.Xauthority'
+    'XDG_CONFIG_DIRS' => '/etc/xdg'
+    'PATH' => '/home/geovanna/anaconda3/bin:/home/geovanna/anaconda3/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/php7/bin:/home/geovanna/instaladores/robomongo/robomongo-0.9.0-rc8-linux-x86_64-c113244/bin:/home/geovanna/instaladores/jdk-android/jdk1.8.0_60:/home/geovanna/instaladores/sdk-android/android-sdk-linux/tools:/home/geovanna/instaladores/sdk-android/android-sdk-linux/platform-tools:/home/geovanna/.npm-global/bin:/user/local/share/phantomjs:/usr/local/php7/bin:/home/geovanna/instaladores/robomongo/robomongo-0.9.0-rc8-linux-x86_64-c113244/bin:/home/geovanna/instaladores/jdk-android/jdk1.8.0_60:/home/geovanna/instaladores/sdk-android/android-sdk-linux/tools:/home/geovanna/instaladores/sdk-android/android-sdk-linux/platform-tools:/home/geovanna/.npm-global/bin:/user/local/share/phantomjs'
+    'SESSION_MANAGER' => 'local/debian:@/tmp/.ICE-unix/1776,unix/debian:/tmp/.ICE-unix/1776'
+    '_' => './yii'
+    'OLDPWD' => '/home/geovanna/csv/programaYii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1518637598.6014
+    'REQUEST_TIME' => 1518637598
+    'argv' => [
+        0 => './yii'
+        1 => 'gii/controllers'
+        2 => '--controller=PostsController'
+    ]
+    'argc' => 3
+]
+2018-02-14 19:50:55 [-][-][-][error][yii\console\Exception] exception 'yii\console\Exception' with message 'Unknown option: --template' in /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/console/Controller.php:126
+Stack trace:
+#0 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('controllers', Array)
+#1 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('gii/controllers', Array)
+#2 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('gii/controllers', Array)
+#3 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#4 /home/geovanna/csv/programaYii/proyectoCSV/yii(20): yii\base\Application->run()
+#5 {main}
+2018-02-14 19:50:55 [-][-][-][info][application] $_SERVER = [
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'XDG_MENU_PREFIX' => 'xfce-'
+    'PLATFORMTOOL_HOME' => '/home/geovanna/instaladores/sdk-android/android-sdk-linux/platform-tools'
+    'LANG' => 'en_US.UTF-8'
+    'DISPLAY' => ':0.0'
+    'COMP_WORDBREAKS' => ' 	
+\"\'><;|&(:'
+    'ANDROIDTOOL_HOME' => '/home/geovanna/instaladores/sdk-android/android-sdk-linux/tools'
+    'COLORTERM' => 'xfce4-terminal'
+    'JAVA_HOME' => '/home/geovanna/instaladores/jdk-android/jdk1.8.0_60'
+    'ROBOMONGO_HOME' => '/home/geovanna/instaladores/robomongo/robomongo-0.9.0-rc8-linux-x86_64-c113244/bin'
+    'XDG_VTNR' => '1'
+    'SSH_AUTH_SOCK' => '/tmp/gpg-4Ub8ud/S.gpg-agent.ssh'
+    'GLADE_CATALOG_PATH' => ':'
+    'XDG_SESSION_ID' => '1'
+    'HUSHLOGIN' => 'FALSE'
+    'USER' => 'geovanna'
+    'GLADE_MODULE_PATH' => ':'
+    'DESKTOP_SESSION' => 'xfce'
+    'PHANTON' => '/user/local/share/phantomjs'
+    'PWD' => '/home/geovanna/csv/programaYii/proyectoCSV'
+    'HOME' => '/home/geovanna'
+    'SSH_AGENT_PID' => '1788'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share'
+    'PHP_HOME' => '/usr/local/php7/bin'
+    'NPMGLOBAL_HOME' => '/home/geovanna/.npm-global/bin'
+    'GLADE_PIXMAP_PATH' => ':'
+    'MAIL' => '/var/mail/geovanna'
+    'WINDOWPATH' => '1'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'XDG_CURRENT_DESKTOP' => 'XFCE'
+    'GPG_AGENT_INFO' => '/tmp/gpg-jYnlR7/S.gpg-agent:1788:1'
+    'XDG_SEAT' => 'seat0'
+    'SHLVL' => '2'
+    'WINDOWID' => '20971524'
+    'LOGNAME' => 'geovanna'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:abstract=/tmp/dbus-9CAyCBg1RD,guid=9c452c86ee11f0b8940ec8225a846bf9'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'XAUTHORITY' => '/home/geovanna/.Xauthority'
+    'XDG_CONFIG_DIRS' => '/etc/xdg'
+    'PATH' => '/home/geovanna/anaconda3/bin:/home/geovanna/anaconda3/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/php7/bin:/home/geovanna/instaladores/robomongo/robomongo-0.9.0-rc8-linux-x86_64-c113244/bin:/home/geovanna/instaladores/jdk-android/jdk1.8.0_60:/home/geovanna/instaladores/sdk-android/android-sdk-linux/tools:/home/geovanna/instaladores/sdk-android/android-sdk-linux/platform-tools:/home/geovanna/.npm-global/bin:/user/local/share/phantomjs:/usr/local/php7/bin:/home/geovanna/instaladores/robomongo/robomongo-0.9.0-rc8-linux-x86_64-c113244/bin:/home/geovanna/instaladores/jdk-android/jdk1.8.0_60:/home/geovanna/instaladores/sdk-android/android-sdk-linux/tools:/home/geovanna/instaladores/sdk-android/android-sdk-linux/platform-tools:/home/geovanna/.npm-global/bin:/user/local/share/phantomjs'
+    'SESSION_MANAGER' => 'local/debian:@/tmp/.ICE-unix/1776,unix/debian:/tmp/.ICE-unix/1776'
+    '_' => './yii'
+    'OLDPWD' => '/home/geovanna/csv/programaYii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1518637855.0966
+    'REQUEST_TIME' => 1518637855
+    'argv' => [
+        0 => './yii'
+        1 => 'gii/controllers'
+        2 => '--template=default'
+        3 => '--controllerClass=PostsController'
+    ]
+    'argc' => 4
+]
+2018-02-14 19:53:15 [-][-][-][error][yii\console\UnknownCommandException] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: gii/controllers' in /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/base/Controller.php:128
+Stack trace:
+#0 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/console/Controller.php(135): yii\base\Controller->runAction('controllers', Array)
+#1 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('controllers', Array)
+#2 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('gii/controllers', Array)
+#3 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('gii/controllers', Array)
+#4 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#5 /home/geovanna/csv/programaYii/proyectoCSV/yii(20): yii\base\Application->run()
+#6 {main}
+
+Next exception 'yii\console\UnknownCommandException' with message 'Unknown command "gii/controllers".' in /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('gii/controllers', Array)
+#1 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /home/geovanna/csv/programaYii/proyectoCSV/yii(20): yii\base\Application->run()
+#3 {main}
+2018-02-14 19:53:15 [-][-][-][info][application] $_SERVER = [
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'XDG_MENU_PREFIX' => 'xfce-'
+    'PLATFORMTOOL_HOME' => '/home/geovanna/instaladores/sdk-android/android-sdk-linux/platform-tools'
+    'LANG' => 'en_US.UTF-8'
+    'DISPLAY' => ':0.0'
+    'COMP_WORDBREAKS' => ' 	
+\"\'><;|&(:'
+    'ANDROIDTOOL_HOME' => '/home/geovanna/instaladores/sdk-android/android-sdk-linux/tools'
+    'COLORTERM' => 'xfce4-terminal'
+    'JAVA_HOME' => '/home/geovanna/instaladores/jdk-android/jdk1.8.0_60'
+    'ROBOMONGO_HOME' => '/home/geovanna/instaladores/robomongo/robomongo-0.9.0-rc8-linux-x86_64-c113244/bin'
+    'XDG_VTNR' => '1'
+    'SSH_AUTH_SOCK' => '/tmp/gpg-4Ub8ud/S.gpg-agent.ssh'
+    'GLADE_CATALOG_PATH' => ':'
+    'XDG_SESSION_ID' => '1'
+    'HUSHLOGIN' => 'FALSE'
+    'USER' => 'geovanna'
+    'GLADE_MODULE_PATH' => ':'
+    'DESKTOP_SESSION' => 'xfce'
+    'PHANTON' => '/user/local/share/phantomjs'
+    'PWD' => '/home/geovanna/csv/programaYii/proyectoCSV'
+    'HOME' => '/home/geovanna'
+    'SSH_AGENT_PID' => '1788'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share'
+    'PHP_HOME' => '/usr/local/php7/bin'
+    'NPMGLOBAL_HOME' => '/home/geovanna/.npm-global/bin'
+    'GLADE_PIXMAP_PATH' => ':'
+    'MAIL' => '/var/mail/geovanna'
+    'WINDOWPATH' => '1'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'XDG_CURRENT_DESKTOP' => 'XFCE'
+    'GPG_AGENT_INFO' => '/tmp/gpg-jYnlR7/S.gpg-agent:1788:1'
+    'XDG_SEAT' => 'seat0'
+    'SHLVL' => '2'
+    'WINDOWID' => '20971524'
+    'LOGNAME' => 'geovanna'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:abstract=/tmp/dbus-9CAyCBg1RD,guid=9c452c86ee11f0b8940ec8225a846bf9'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'XAUTHORITY' => '/home/geovanna/.Xauthority'
+    'XDG_CONFIG_DIRS' => '/etc/xdg'
+    'PATH' => '/home/geovanna/anaconda3/bin:/home/geovanna/anaconda3/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/php7/bin:/home/geovanna/instaladores/robomongo/robomongo-0.9.0-rc8-linux-x86_64-c113244/bin:/home/geovanna/instaladores/jdk-android/jdk1.8.0_60:/home/geovanna/instaladores/sdk-android/android-sdk-linux/tools:/home/geovanna/instaladores/sdk-android/android-sdk-linux/platform-tools:/home/geovanna/.npm-global/bin:/user/local/share/phantomjs:/usr/local/php7/bin:/home/geovanna/instaladores/robomongo/robomongo-0.9.0-rc8-linux-x86_64-c113244/bin:/home/geovanna/instaladores/jdk-android/jdk1.8.0_60:/home/geovanna/instaladores/sdk-android/android-sdk-linux/tools:/home/geovanna/instaladores/sdk-android/android-sdk-linux/platform-tools:/home/geovanna/.npm-global/bin:/user/local/share/phantomjs'
+    'SESSION_MANAGER' => 'local/debian:@/tmp/.ICE-unix/1776,unix/debian:/tmp/.ICE-unix/1776'
+    '_' => './yii'
+    'OLDPWD' => '/home/geovanna/csv/programaYii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1518637995.7947
+    'REQUEST_TIME' => 1518637995
+    'argv' => [
+        0 => './yii'
+        1 => 'gii/controllers'
+    ]
+    'argc' => 2
+]
+2018-02-14 19:57:19 [-][-][-][error][yii\console\Exception] exception 'yii\console\Exception' with message 'Unknown option: --controller' in /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/console/Controller.php:126
+Stack trace:
+#0 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('controller', Array)
+#1 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('gii/controller', Array)
+#2 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('gii/controller', Array)
+#3 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#4 /home/geovanna/csv/programaYii/proyectoCSV/yii(20): yii\base\Application->run()
+#5 {main}
+2018-02-14 19:57:19 [-][-][-][info][application] $_SERVER = [
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'XDG_MENU_PREFIX' => 'xfce-'
+    'PLATFORMTOOL_HOME' => '/home/geovanna/instaladores/sdk-android/android-sdk-linux/platform-tools'
+    'LANG' => 'en_US.UTF-8'
+    'DISPLAY' => ':0.0'
+    'COMP_WORDBREAKS' => ' 	
+\"\'><;|&(:'
+    'ANDROIDTOOL_HOME' => '/home/geovanna/instaladores/sdk-android/android-sdk-linux/tools'
+    'COLORTERM' => 'xfce4-terminal'
+    'JAVA_HOME' => '/home/geovanna/instaladores/jdk-android/jdk1.8.0_60'
+    'ROBOMONGO_HOME' => '/home/geovanna/instaladores/robomongo/robomongo-0.9.0-rc8-linux-x86_64-c113244/bin'
+    'XDG_VTNR' => '1'
+    'SSH_AUTH_SOCK' => '/tmp/gpg-4Ub8ud/S.gpg-agent.ssh'
+    'GLADE_CATALOG_PATH' => ':'
+    'XDG_SESSION_ID' => '1'
+    'HUSHLOGIN' => 'FALSE'
+    'USER' => 'geovanna'
+    'GLADE_MODULE_PATH' => ':'
+    'DESKTOP_SESSION' => 'xfce'
+    'PHANTON' => '/user/local/share/phantomjs'
+    'PWD' => '/home/geovanna/csv/programaYii/proyectoCSV'
+    'HOME' => '/home/geovanna'
+    'SSH_AGENT_PID' => '1788'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share'
+    'PHP_HOME' => '/usr/local/php7/bin'
+    'NPMGLOBAL_HOME' => '/home/geovanna/.npm-global/bin'
+    'GLADE_PIXMAP_PATH' => ':'
+    'MAIL' => '/var/mail/geovanna'
+    'WINDOWPATH' => '1'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'XDG_CURRENT_DESKTOP' => 'XFCE'
+    'GPG_AGENT_INFO' => '/tmp/gpg-jYnlR7/S.gpg-agent:1788:1'
+    'XDG_SEAT' => 'seat0'
+    'SHLVL' => '2'
+    'WINDOWID' => '20971524'
+    'LOGNAME' => 'geovanna'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:abstract=/tmp/dbus-9CAyCBg1RD,guid=9c452c86ee11f0b8940ec8225a846bf9'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'XAUTHORITY' => '/home/geovanna/.Xauthority'
+    'XDG_CONFIG_DIRS' => '/etc/xdg'
+    'PATH' => '/home/geovanna/anaconda3/bin:/home/geovanna/anaconda3/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/php7/bin:/home/geovanna/instaladores/robomongo/robomongo-0.9.0-rc8-linux-x86_64-c113244/bin:/home/geovanna/instaladores/jdk-android/jdk1.8.0_60:/home/geovanna/instaladores/sdk-android/android-sdk-linux/tools:/home/geovanna/instaladores/sdk-android/android-sdk-linux/platform-tools:/home/geovanna/.npm-global/bin:/user/local/share/phantomjs:/usr/local/php7/bin:/home/geovanna/instaladores/robomongo/robomongo-0.9.0-rc8-linux-x86_64-c113244/bin:/home/geovanna/instaladores/jdk-android/jdk1.8.0_60:/home/geovanna/instaladores/sdk-android/android-sdk-linux/tools:/home/geovanna/instaladores/sdk-android/android-sdk-linux/platform-tools:/home/geovanna/.npm-global/bin:/user/local/share/phantomjs'
+    'SESSION_MANAGER' => 'local/debian:@/tmp/.ICE-unix/1776,unix/debian:/tmp/.ICE-unix/1776'
+    '_' => './yii'
+    'OLDPWD' => '/home/geovanna/csv/programaYii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1518638239.8686
+    'REQUEST_TIME' => 1518638239
+    'argv' => [
+        0 => './yii'
+        1 => 'gii/controller'
+        2 => '--controller=PostsController'
+    ]
+    'argc' => 3
+]
+2018-02-14 19:57:27 [-][-][-][error][yii\console\Exception] exception 'yii\console\Exception' with message 'Unknown option: --controller' in /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/console/Controller.php:126
+Stack trace:
+#0 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('controller', Array)
+#1 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('gii/controller', Array)
+#2 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('gii/controller', Array)
+#3 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#4 /home/geovanna/csv/programaYii/proyectoCSV/yii(20): yii\base\Application->run()
+#5 {main}
+2018-02-14 19:57:27 [-][-][-][info][application] $_SERVER = [
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'XDG_MENU_PREFIX' => 'xfce-'
+    'PLATFORMTOOL_HOME' => '/home/geovanna/instaladores/sdk-android/android-sdk-linux/platform-tools'
+    'LANG' => 'en_US.UTF-8'
+    'DISPLAY' => ':0.0'
+    'COMP_WORDBREAKS' => ' 	
+\"\'><;|&(:'
+    'ANDROIDTOOL_HOME' => '/home/geovanna/instaladores/sdk-android/android-sdk-linux/tools'
+    'COLORTERM' => 'xfce4-terminal'
+    'JAVA_HOME' => '/home/geovanna/instaladores/jdk-android/jdk1.8.0_60'
+    'ROBOMONGO_HOME' => '/home/geovanna/instaladores/robomongo/robomongo-0.9.0-rc8-linux-x86_64-c113244/bin'
+    'XDG_VTNR' => '1'
+    'SSH_AUTH_SOCK' => '/tmp/gpg-4Ub8ud/S.gpg-agent.ssh'
+    'GLADE_CATALOG_PATH' => ':'
+    'XDG_SESSION_ID' => '1'
+    'HUSHLOGIN' => 'FALSE'
+    'USER' => 'geovanna'
+    'GLADE_MODULE_PATH' => ':'
+    'DESKTOP_SESSION' => 'xfce'
+    'PHANTON' => '/user/local/share/phantomjs'
+    'PWD' => '/home/geovanna/csv/programaYii/proyectoCSV'
+    'HOME' => '/home/geovanna'
+    'SSH_AGENT_PID' => '1788'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share'
+    'PHP_HOME' => '/usr/local/php7/bin'
+    'NPMGLOBAL_HOME' => '/home/geovanna/.npm-global/bin'
+    'GLADE_PIXMAP_PATH' => ':'
+    'MAIL' => '/var/mail/geovanna'
+    'WINDOWPATH' => '1'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'XDG_CURRENT_DESKTOP' => 'XFCE'
+    'GPG_AGENT_INFO' => '/tmp/gpg-jYnlR7/S.gpg-agent:1788:1'
+    'XDG_SEAT' => 'seat0'
+    'SHLVL' => '2'
+    'WINDOWID' => '20971524'
+    'LOGNAME' => 'geovanna'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:abstract=/tmp/dbus-9CAyCBg1RD,guid=9c452c86ee11f0b8940ec8225a846bf9'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'XAUTHORITY' => '/home/geovanna/.Xauthority'
+    'XDG_CONFIG_DIRS' => '/etc/xdg'
+    'PATH' => '/home/geovanna/anaconda3/bin:/home/geovanna/anaconda3/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/php7/bin:/home/geovanna/instaladores/robomongo/robomongo-0.9.0-rc8-linux-x86_64-c113244/bin:/home/geovanna/instaladores/jdk-android/jdk1.8.0_60:/home/geovanna/instaladores/sdk-android/android-sdk-linux/tools:/home/geovanna/instaladores/sdk-android/android-sdk-linux/platform-tools:/home/geovanna/.npm-global/bin:/user/local/share/phantomjs:/usr/local/php7/bin:/home/geovanna/instaladores/robomongo/robomongo-0.9.0-rc8-linux-x86_64-c113244/bin:/home/geovanna/instaladores/jdk-android/jdk1.8.0_60:/home/geovanna/instaladores/sdk-android/android-sdk-linux/tools:/home/geovanna/instaladores/sdk-android/android-sdk-linux/platform-tools:/home/geovanna/.npm-global/bin:/user/local/share/phantomjs'
+    'SESSION_MANAGER' => 'local/debian:@/tmp/.ICE-unix/1776,unix/debian:/tmp/.ICE-unix/1776'
+    '_' => './yii'
+    'OLDPWD' => '/home/geovanna/csv/programaYii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1518638247.4173
+    'REQUEST_TIME' => 1518638247
+    'argv' => [
+        0 => './yii'
+        1 => 'gii/controller'
+        2 => '--controller=Posts'
+    ]
+    'argc' => 3
+]
+2018-02-14 19:57:55 [-][-][-][error][yii\console\Exception] exception 'yii\console\Exception' with message 'Unknown option: --controller' in /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/console/Controller.php:126
+Stack trace:
+#0 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('controller', Array)
+#1 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('gii/controller', Array)
+#2 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('gii/controller', Array)
+#3 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#4 /home/geovanna/csv/programaYii/proyectoCSV/yii(20): yii\base\Application->run()
+#5 {main}
+2018-02-14 19:57:55 [-][-][-][info][application] $_SERVER = [
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'XDG_MENU_PREFIX' => 'xfce-'
+    'PLATFORMTOOL_HOME' => '/home/geovanna/instaladores/sdk-android/android-sdk-linux/platform-tools'
+    'LANG' => 'en_US.UTF-8'
+    'DISPLAY' => ':0.0'
+    'COMP_WORDBREAKS' => ' 	
+\"\'><;|&(:'
+    'ANDROIDTOOL_HOME' => '/home/geovanna/instaladores/sdk-android/android-sdk-linux/tools'
+    'COLORTERM' => 'xfce4-terminal'
+    'JAVA_HOME' => '/home/geovanna/instaladores/jdk-android/jdk1.8.0_60'
+    'ROBOMONGO_HOME' => '/home/geovanna/instaladores/robomongo/robomongo-0.9.0-rc8-linux-x86_64-c113244/bin'
+    'XDG_VTNR' => '1'
+    'SSH_AUTH_SOCK' => '/tmp/gpg-4Ub8ud/S.gpg-agent.ssh'
+    'GLADE_CATALOG_PATH' => ':'
+    'XDG_SESSION_ID' => '1'
+    'HUSHLOGIN' => 'FALSE'
+    'USER' => 'geovanna'
+    'GLADE_MODULE_PATH' => ':'
+    'DESKTOP_SESSION' => 'xfce'
+    'PHANTON' => '/user/local/share/phantomjs'
+    'PWD' => '/home/geovanna/csv/programaYii/proyectoCSV'
+    'HOME' => '/home/geovanna'
+    'SSH_AGENT_PID' => '1788'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share'
+    'PHP_HOME' => '/usr/local/php7/bin'
+    'NPMGLOBAL_HOME' => '/home/geovanna/.npm-global/bin'
+    'GLADE_PIXMAP_PATH' => ':'
+    'MAIL' => '/var/mail/geovanna'
+    'WINDOWPATH' => '1'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'XDG_CURRENT_DESKTOP' => 'XFCE'
+    'GPG_AGENT_INFO' => '/tmp/gpg-jYnlR7/S.gpg-agent:1788:1'
+    'XDG_SEAT' => 'seat0'
+    'SHLVL' => '2'
+    'WINDOWID' => '20971524'
+    'LOGNAME' => 'geovanna'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:abstract=/tmp/dbus-9CAyCBg1RD,guid=9c452c86ee11f0b8940ec8225a846bf9'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'XAUTHORITY' => '/home/geovanna/.Xauthority'
+    'XDG_CONFIG_DIRS' => '/etc/xdg'
+    'PATH' => '/home/geovanna/anaconda3/bin:/home/geovanna/anaconda3/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/php7/bin:/home/geovanna/instaladores/robomongo/robomongo-0.9.0-rc8-linux-x86_64-c113244/bin:/home/geovanna/instaladores/jdk-android/jdk1.8.0_60:/home/geovanna/instaladores/sdk-android/android-sdk-linux/tools:/home/geovanna/instaladores/sdk-android/android-sdk-linux/platform-tools:/home/geovanna/.npm-global/bin:/user/local/share/phantomjs:/usr/local/php7/bin:/home/geovanna/instaladores/robomongo/robomongo-0.9.0-rc8-linux-x86_64-c113244/bin:/home/geovanna/instaladores/jdk-android/jdk1.8.0_60:/home/geovanna/instaladores/sdk-android/android-sdk-linux/tools:/home/geovanna/instaladores/sdk-android/android-sdk-linux/platform-tools:/home/geovanna/.npm-global/bin:/user/local/share/phantomjs'
+    'SESSION_MANAGER' => 'local/debian:@/tmp/.ICE-unix/1776,unix/debian:/tmp/.ICE-unix/1776'
+    '_' => './yii'
+    'OLDPWD' => '/home/geovanna/csv/programaYii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1518638275.7789
+    'REQUEST_TIME' => 1518638275
+    'argv' => [
+        0 => './yii'
+        1 => 'gii/controller'
+        2 => '--controller=Posts'
+    ]
+    'argc' => 3
+]
+2018-02-14 20:00:35 [-][-][-][error][yii\console\Exception] exception 'yii\console\Exception' with message 'Unknown alias: -controllerClass' in /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/console/Controller.php:107
+Stack trace:
+#0 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/base/Module.php(528): yii\console\Controller->runAction('controller', Array)
+#1 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('gii/controller', Array)
+#2 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('gii/controller', Array)
+#3 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#4 /home/geovanna/csv/programaYii/proyectoCSV/yii(20): yii\base\Application->run()
+#5 {main}
+2018-02-14 20:00:35 [-][-][-][info][application] $_SERVER = [
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'XDG_MENU_PREFIX' => 'xfce-'
+    'PLATFORMTOOL_HOME' => '/home/geovanna/instaladores/sdk-android/android-sdk-linux/platform-tools'
+    'LANG' => 'en_US.UTF-8'
+    'DISPLAY' => ':0.0'
+    'COMP_WORDBREAKS' => ' 	
+\"\'><;|&(:'
+    'ANDROIDTOOL_HOME' => '/home/geovanna/instaladores/sdk-android/android-sdk-linux/tools'
+    'COLORTERM' => 'xfce4-terminal'
+    'JAVA_HOME' => '/home/geovanna/instaladores/jdk-android/jdk1.8.0_60'
+    'ROBOMONGO_HOME' => '/home/geovanna/instaladores/robomongo/robomongo-0.9.0-rc8-linux-x86_64-c113244/bin'
+    'XDG_VTNR' => '1'
+    'SSH_AUTH_SOCK' => '/tmp/gpg-4Ub8ud/S.gpg-agent.ssh'
+    'GLADE_CATALOG_PATH' => ':'
+    'XDG_SESSION_ID' => '1'
+    'HUSHLOGIN' => 'FALSE'
+    'USER' => 'geovanna'
+    'GLADE_MODULE_PATH' => ':'
+    'DESKTOP_SESSION' => 'xfce'
+    'PHANTON' => '/user/local/share/phantomjs'
+    'PWD' => '/home/geovanna/csv/programaYii/proyectoCSV'
+    'HOME' => '/home/geovanna'
+    'SSH_AGENT_PID' => '1788'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share'
+    'PHP_HOME' => '/usr/local/php7/bin'
+    'NPMGLOBAL_HOME' => '/home/geovanna/.npm-global/bin'
+    'GLADE_PIXMAP_PATH' => ':'
+    'MAIL' => '/var/mail/geovanna'
+    'WINDOWPATH' => '1'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'XDG_CURRENT_DESKTOP' => 'XFCE'
+    'GPG_AGENT_INFO' => '/tmp/gpg-jYnlR7/S.gpg-agent:1788:1'
+    'XDG_SEAT' => 'seat0'
+    'SHLVL' => '2'
+    'WINDOWID' => '20971524'
+    'LOGNAME' => 'geovanna'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:abstract=/tmp/dbus-9CAyCBg1RD,guid=9c452c86ee11f0b8940ec8225a846bf9'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'XAUTHORITY' => '/home/geovanna/.Xauthority'
+    'XDG_CONFIG_DIRS' => '/etc/xdg'
+    'PATH' => '/home/geovanna/anaconda3/bin:/home/geovanna/anaconda3/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/php7/bin:/home/geovanna/instaladores/robomongo/robomongo-0.9.0-rc8-linux-x86_64-c113244/bin:/home/geovanna/instaladores/jdk-android/jdk1.8.0_60:/home/geovanna/instaladores/sdk-android/android-sdk-linux/tools:/home/geovanna/instaladores/sdk-android/android-sdk-linux/platform-tools:/home/geovanna/.npm-global/bin:/user/local/share/phantomjs:/usr/local/php7/bin:/home/geovanna/instaladores/robomongo/robomongo-0.9.0-rc8-linux-x86_64-c113244/bin:/home/geovanna/instaladores/jdk-android/jdk1.8.0_60:/home/geovanna/instaladores/sdk-android/android-sdk-linux/tools:/home/geovanna/instaladores/sdk-android/android-sdk-linux/platform-tools:/home/geovanna/.npm-global/bin:/user/local/share/phantomjs'
+    'SESSION_MANAGER' => 'local/debian:@/tmp/.ICE-unix/1776,unix/debian:/tmp/.ICE-unix/1776'
+    '_' => './yii'
+    'OLDPWD' => '/home/geovanna/csv/programaYii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1518638434.9946
+    'REQUEST_TIME' => 1518638434
+    'argv' => [
+        0 => './yii'
+        1 => 'gii/controller'
+        2 => '-controllerClass=PostsController'
+    ]
+    'argc' => 3
+]
+2018-02-14 20:18:21 [-][-][-][error][yii\console\UnknownCommandException] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "--help".' in /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('--help', Array)
+#1 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('--help', Array)
+#2 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /home/geovanna/csv/programaYii/proyectoCSV/yii(20): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\UnknownCommandException' with message 'Unknown command "--help".' in /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('--help', Array)
+#1 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /home/geovanna/csv/programaYii/proyectoCSV/yii(20): yii\base\Application->run()
+#3 {main}
+2018-02-14 20:18:21 [-][-][-][info][application] $_SERVER = [
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'XDG_MENU_PREFIX' => 'xfce-'
+    'PLATFORMTOOL_HOME' => '/home/geovanna/instaladores/sdk-android/android-sdk-linux/platform-tools'
+    'LANG' => 'en_US.UTF-8'
+    'DISPLAY' => ':0.0'
+    'COMP_WORDBREAKS' => ' 	
+\"\'><;|&(:'
+    'ANDROIDTOOL_HOME' => '/home/geovanna/instaladores/sdk-android/android-sdk-linux/tools'
+    'COLORTERM' => 'xfce4-terminal'
+    'JAVA_HOME' => '/home/geovanna/instaladores/jdk-android/jdk1.8.0_60'
+    'ROBOMONGO_HOME' => '/home/geovanna/instaladores/robomongo/robomongo-0.9.0-rc8-linux-x86_64-c113244/bin'
+    'XDG_VTNR' => '1'
+    'SSH_AUTH_SOCK' => '/tmp/gpg-4Ub8ud/S.gpg-agent.ssh'
+    'GLADE_CATALOG_PATH' => ':'
+    'XDG_SESSION_ID' => '1'
+    'HUSHLOGIN' => 'FALSE'
+    'USER' => 'geovanna'
+    'GLADE_MODULE_PATH' => ':'
+    'DESKTOP_SESSION' => 'xfce'
+    'PHANTON' => '/user/local/share/phantomjs'
+    'PWD' => '/home/geovanna/csv/programaYii/proyectoCSV'
+    'HOME' => '/home/geovanna'
+    'SSH_AGENT_PID' => '1788'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share'
+    'PHP_HOME' => '/usr/local/php7/bin'
+    'NPMGLOBAL_HOME' => '/home/geovanna/.npm-global/bin'
+    'GLADE_PIXMAP_PATH' => ':'
+    'MAIL' => '/var/mail/geovanna'
+    'WINDOWPATH' => '1'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'XDG_CURRENT_DESKTOP' => 'XFCE'
+    'GPG_AGENT_INFO' => '/tmp/gpg-jYnlR7/S.gpg-agent:1788:1'
+    'XDG_SEAT' => 'seat0'
+    'SHLVL' => '2'
+    'WINDOWID' => '20971524'
+    'LOGNAME' => 'geovanna'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:abstract=/tmp/dbus-9CAyCBg1RD,guid=9c452c86ee11f0b8940ec8225a846bf9'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'XAUTHORITY' => '/home/geovanna/.Xauthority'
+    'XDG_CONFIG_DIRS' => '/etc/xdg'
+    'PATH' => '/home/geovanna/anaconda3/bin:/home/geovanna/anaconda3/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/php7/bin:/home/geovanna/instaladores/robomongo/robomongo-0.9.0-rc8-linux-x86_64-c113244/bin:/home/geovanna/instaladores/jdk-android/jdk1.8.0_60:/home/geovanna/instaladores/sdk-android/android-sdk-linux/tools:/home/geovanna/instaladores/sdk-android/android-sdk-linux/platform-tools:/home/geovanna/.npm-global/bin:/user/local/share/phantomjs:/usr/local/php7/bin:/home/geovanna/instaladores/robomongo/robomongo-0.9.0-rc8-linux-x86_64-c113244/bin:/home/geovanna/instaladores/jdk-android/jdk1.8.0_60:/home/geovanna/instaladores/sdk-android/android-sdk-linux/tools:/home/geovanna/instaladores/sdk-android/android-sdk-linux/platform-tools:/home/geovanna/.npm-global/bin:/user/local/share/phantomjs'
+    'SESSION_MANAGER' => 'local/debian:@/tmp/.ICE-unix/1776,unix/debian:/tmp/.ICE-unix/1776'
+    '_' => './yii'
+    'OLDPWD' => '/home/geovanna/csv/programaYii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1518639501.3717
+    'REQUEST_TIME' => 1518639501
+    'argv' => [
+        0 => './yii'
+        1 => '--help'
+        2 => 'gii/controller'
+        3 => '--controllerClass=controllersPostController'
+    ]
+    'argc' => 4
+]
+2018-02-14 20:18:30 [-][-][-][error][yii\console\UnknownCommandException] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "--help".' in /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('--help', Array)
+#1 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('--help', Array)
+#2 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /home/geovanna/csv/programaYii/proyectoCSV/yii(20): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\UnknownCommandException' with message 'Unknown command "--help".' in /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('--help', Array)
+#1 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /home/geovanna/csv/programaYii/proyectoCSV/yii(20): yii\base\Application->run()
+#3 {main}
+2018-02-14 20:18:30 [-][-][-][info][application] $_SERVER = [
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'XDG_MENU_PREFIX' => 'xfce-'
+    'PLATFORMTOOL_HOME' => '/home/geovanna/instaladores/sdk-android/android-sdk-linux/platform-tools'
+    'LANG' => 'en_US.UTF-8'
+    'DISPLAY' => ':0.0'
+    'COMP_WORDBREAKS' => ' 	
+\"\'><;|&(:'
+    'ANDROIDTOOL_HOME' => '/home/geovanna/instaladores/sdk-android/android-sdk-linux/tools'
+    'COLORTERM' => 'xfce4-terminal'
+    'JAVA_HOME' => '/home/geovanna/instaladores/jdk-android/jdk1.8.0_60'
+    'ROBOMONGO_HOME' => '/home/geovanna/instaladores/robomongo/robomongo-0.9.0-rc8-linux-x86_64-c113244/bin'
+    'XDG_VTNR' => '1'
+    'SSH_AUTH_SOCK' => '/tmp/gpg-4Ub8ud/S.gpg-agent.ssh'
+    'GLADE_CATALOG_PATH' => ':'
+    'XDG_SESSION_ID' => '1'
+    'HUSHLOGIN' => 'FALSE'
+    'USER' => 'geovanna'
+    'GLADE_MODULE_PATH' => ':'
+    'DESKTOP_SESSION' => 'xfce'
+    'PHANTON' => '/user/local/share/phantomjs'
+    'PWD' => '/home/geovanna/csv/programaYii/proyectoCSV'
+    'HOME' => '/home/geovanna'
+    'SSH_AGENT_PID' => '1788'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share'
+    'PHP_HOME' => '/usr/local/php7/bin'
+    'NPMGLOBAL_HOME' => '/home/geovanna/.npm-global/bin'
+    'GLADE_PIXMAP_PATH' => ':'
+    'MAIL' => '/var/mail/geovanna'
+    'WINDOWPATH' => '1'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'XDG_CURRENT_DESKTOP' => 'XFCE'
+    'GPG_AGENT_INFO' => '/tmp/gpg-jYnlR7/S.gpg-agent:1788:1'
+    'XDG_SEAT' => 'seat0'
+    'SHLVL' => '2'
+    'WINDOWID' => '20971524'
+    'LOGNAME' => 'geovanna'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:abstract=/tmp/dbus-9CAyCBg1RD,guid=9c452c86ee11f0b8940ec8225a846bf9'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'XAUTHORITY' => '/home/geovanna/.Xauthority'
+    'XDG_CONFIG_DIRS' => '/etc/xdg'
+    'PATH' => '/home/geovanna/anaconda3/bin:/home/geovanna/anaconda3/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/php7/bin:/home/geovanna/instaladores/robomongo/robomongo-0.9.0-rc8-linux-x86_64-c113244/bin:/home/geovanna/instaladores/jdk-android/jdk1.8.0_60:/home/geovanna/instaladores/sdk-android/android-sdk-linux/tools:/home/geovanna/instaladores/sdk-android/android-sdk-linux/platform-tools:/home/geovanna/.npm-global/bin:/user/local/share/phantomjs:/usr/local/php7/bin:/home/geovanna/instaladores/robomongo/robomongo-0.9.0-rc8-linux-x86_64-c113244/bin:/home/geovanna/instaladores/jdk-android/jdk1.8.0_60:/home/geovanna/instaladores/sdk-android/android-sdk-linux/tools:/home/geovanna/instaladores/sdk-android/android-sdk-linux/platform-tools:/home/geovanna/.npm-global/bin:/user/local/share/phantomjs'
+    'SESSION_MANAGER' => 'local/debian:@/tmp/.ICE-unix/1776,unix/debian:/tmp/.ICE-unix/1776'
+    '_' => './yii'
+    'OLDPWD' => '/home/geovanna/csv/programaYii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1518639510.5473
+    'REQUEST_TIME' => 1518639510
+    'argv' => [
+        0 => './yii'
+        1 => '--help'
+        2 => 'gii/controller'
+    ]
+    'argc' => 3
+]
+2018-02-14 20:18:48 [-][-][-][error][yii\console\UnknownCommandException] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "--help".' in /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction('--help', Array)
+#1 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('--help', Array)
+#2 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#3 /home/geovanna/csv/programaYii/proyectoCSV/yii(20): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\console\UnknownCommandException' with message 'Unknown command "--help".' in /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/console/Application.php:183
+Stack trace:
+#0 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction('--help', Array)
+#1 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/base/Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#2 /home/geovanna/csv/programaYii/proyectoCSV/yii(20): yii\base\Application->run()
+#3 {main}
+2018-02-14 20:18:47 [-][-][-][info][application] $_SERVER = [
+    'LS_COLORS' => 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'
+    'XDG_MENU_PREFIX' => 'xfce-'
+    'PLATFORMTOOL_HOME' => '/home/geovanna/instaladores/sdk-android/android-sdk-linux/platform-tools'
+    'LANG' => 'en_US.UTF-8'
+    'DISPLAY' => ':0.0'
+    'COMP_WORDBREAKS' => ' 	
+\"\'><;|&(:'
+    'ANDROIDTOOL_HOME' => '/home/geovanna/instaladores/sdk-android/android-sdk-linux/tools'
+    'COLORTERM' => 'xfce4-terminal'
+    'JAVA_HOME' => '/home/geovanna/instaladores/jdk-android/jdk1.8.0_60'
+    'ROBOMONGO_HOME' => '/home/geovanna/instaladores/robomongo/robomongo-0.9.0-rc8-linux-x86_64-c113244/bin'
+    'XDG_VTNR' => '1'
+    'SSH_AUTH_SOCK' => '/tmp/gpg-4Ub8ud/S.gpg-agent.ssh'
+    'GLADE_CATALOG_PATH' => ':'
+    'XDG_SESSION_ID' => '1'
+    'HUSHLOGIN' => 'FALSE'
+    'USER' => 'geovanna'
+    'GLADE_MODULE_PATH' => ':'
+    'DESKTOP_SESSION' => 'xfce'
+    'PHANTON' => '/user/local/share/phantomjs'
+    'PWD' => '/home/geovanna/csv/programaYii/proyectoCSV'
+    'HOME' => '/home/geovanna'
+    'SSH_AGENT_PID' => '1788'
+    'XDG_DATA_DIRS' => '/usr/local/share:/usr/share'
+    'PHP_HOME' => '/usr/local/php7/bin'
+    'NPMGLOBAL_HOME' => '/home/geovanna/.npm-global/bin'
+    'GLADE_PIXMAP_PATH' => ':'
+    'MAIL' => '/var/mail/geovanna'
+    'WINDOWPATH' => '1'
+    'TERM' => 'xterm'
+    'SHELL' => '/bin/bash'
+    'XDG_CURRENT_DESKTOP' => 'XFCE'
+    'GPG_AGENT_INFO' => '/tmp/gpg-jYnlR7/S.gpg-agent:1788:1'
+    'XDG_SEAT' => 'seat0'
+    'SHLVL' => '2'
+    'WINDOWID' => '20971524'
+    'LOGNAME' => 'geovanna'
+    'DBUS_SESSION_BUS_ADDRESS' => 'unix:abstract=/tmp/dbus-9CAyCBg1RD,guid=9c452c86ee11f0b8940ec8225a846bf9'
+    'XDG_RUNTIME_DIR' => '/run/user/1000'
+    'XAUTHORITY' => '/home/geovanna/.Xauthority'
+    'XDG_CONFIG_DIRS' => '/etc/xdg'
+    'PATH' => '/home/geovanna/anaconda3/bin:/home/geovanna/anaconda3/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/php7/bin:/home/geovanna/instaladores/robomongo/robomongo-0.9.0-rc8-linux-x86_64-c113244/bin:/home/geovanna/instaladores/jdk-android/jdk1.8.0_60:/home/geovanna/instaladores/sdk-android/android-sdk-linux/tools:/home/geovanna/instaladores/sdk-android/android-sdk-linux/platform-tools:/home/geovanna/.npm-global/bin:/user/local/share/phantomjs:/usr/local/php7/bin:/home/geovanna/instaladores/robomongo/robomongo-0.9.0-rc8-linux-x86_64-c113244/bin:/home/geovanna/instaladores/jdk-android/jdk1.8.0_60:/home/geovanna/instaladores/sdk-android/android-sdk-linux/tools:/home/geovanna/instaladores/sdk-android/android-sdk-linux/platform-tools:/home/geovanna/.npm-global/bin:/user/local/share/phantomjs'
+    'SESSION_MANAGER' => 'local/debian:@/tmp/.ICE-unix/1776,unix/debian:/tmp/.ICE-unix/1776'
+    '_' => './yii'
+    'OLDPWD' => '/home/geovanna/csv/programaYii'
+    'PHP_SELF' => './yii'
+    'SCRIPT_NAME' => './yii'
+    'SCRIPT_FILENAME' => './yii'
+    'PATH_TRANSLATED' => './yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1518639527.9918
+    'REQUEST_TIME' => 1518639527
+    'argv' => [
+        0 => './yii'
+        1 => '--help'
+        2 => 'gii/controller'
+    ]
+    'argc' => 3
+]
+2018-02-20 19:23:44 [::1][-][dvsnm5sgslr0972jtthtee5b03][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'file_put_contents(/home/geovanna/csv/programaYii/proyectoCSV/runtime/gii-2.0.13.1/yii-gii-generators-model-Generator.json): failed to open stream: Permission denied' in /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2-gii/Generator.php:247
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'file_put_conten...', '/home/geovanna/...', 247, Array)
+#1 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2-gii/Generator.php(247): file_put_contents('/home/geovanna/...', '{"template":"de...')
+#2 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2-gii/controllers/DefaultController.php(60): yii\gii\Generator->saveStickyAttributes()
+#3 [internal function]: yii\gii\controllers\DefaultController->actionView('model')
+#4 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('view', Array)
+#7 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('gii/default/vie...', Array)
+#8 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /home/geovanna/csv/programaYii/proyectoCSV/web/index.php(12): yii\base\Application->run()
+#10 {main}
+2018-02-20 19:23:43 [::1][-][dvsnm5sgslr0972jtthtee5b03][info][application] $_GET = [
+    'r' => 'gii/default/view'
+    'id' => 'model'
+]
+
+$_POST = [
+    '_csrf' => 'pb5gwwVUcx5E_Xc-D-krRQ8qirx4g1rhY-Y1li6MV1LIx1GNdR8iKQ6LR3hNuWYsO0fljQr6N5IZn0HcXMdiFA=='
+    'Generator' => [
+        'tableName' => 'pagina'
+        'modelClass' => 'Pagina'
+        'ns' => 'app\\models'
+        'baseClass' => 'yii\\db\\ActiveRecord'
+        'db' => 'db'
+        'useTablePrefix' => '0'
+        'generateRelations' => 'all'
+        'generateRelationsFromCurrentSchema' => '1'
+        'generateLabelsFromComments' => '0'
+        'generateQuery' => '0'
+        'queryNs' => 'app\\models'
+        'queryBaseClass' => 'yii\\db\\ActiveQuery'
+        'enableI18N' => '0'
+        'messageCategory' => 'app'
+        'useSchemaName' => '1'
+        'template' => 'default'
+    ]
+    'preview' => ''
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1560752447.1487779982'
+    'PHPSESSID' => 'dvsnm5sgslr0972jtthtee5b03'
+    '_csrf' => '4664fae7d40e4d6fb063da1c4cdce0edd1461d59a10b8e469c317c039a6ba655a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"my1NpKQ7Jv0FBPMi4mo1rymszytJrK5F\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/geovanna/csv/programaYii/proyectoCSV/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '42956'
+    'SERVER_SOFTWARE' => 'PHP 5.6.33-0+deb8u1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=gii%2Fdefault%2Fview&id=model'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/geovanna/csv/programaYii/proyectoCSV/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=gii%2Fdefault%2Fview&id=model'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '767'
+    'HTTP_CONTENT_LENGTH' => '767'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://localhost:8080'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php?r=gii%2Fdefault%2Fview&id=model'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_ga=GA1.1.1560752447.1487779982; PHPSESSID=dvsnm5sgslr0972jtthtee5b03; _csrf=4664fae7d40e4d6fb063da1c4cdce0edd1461d59a10b8e469c317c039a6ba655a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22my1NpKQ7Jv0FBPMi4mo1rymszytJrK5F%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1519154623.7496
+    'REQUEST_TIME' => 1519154623
+]
+2018-02-20 19:30:22 [::1][-][dvsnm5sgslr0972jtthtee5b03][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'file_put_contents(/home/geovanna/csv/programaYii/proyectoCSV/runtime/gii-2.0.13.1/yii-gii-generators-model-Generator.json): failed to open stream: Permission denied' in /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2-gii/Generator.php:247
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'file_put_conten...', '/home/geovanna/...', 247, Array)
+#1 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2-gii/Generator.php(247): file_put_contents('/home/geovanna/...', '{"template":"de...')
+#2 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2-gii/controllers/DefaultController.php(60): yii\gii\Generator->saveStickyAttributes()
+#3 [internal function]: yii\gii\controllers\DefaultController->actionView('model')
+#4 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('view', Array)
+#7 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('gii/default/vie...', Array)
+#8 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /home/geovanna/csv/programaYii/proyectoCSV/web/index.php(12): yii\base\Application->run()
+#10 {main}
+2018-02-20 19:30:22 [::1][-][dvsnm5sgslr0972jtthtee5b03][info][application] $_GET = [
+    'r' => 'gii/default/view'
+    'id' => 'model'
+]
+
+$_POST = [
+    '_csrf' => 'pb5gwwVUcx5E_Xc-D-krRQ8qirx4g1rhY-Y1li6MV1LIx1GNdR8iKQ6LR3hNuWYsO0fljQr6N5IZn0HcXMdiFA=='
+    'Generator' => [
+        'tableName' => 'pagina'
+        'modelClass' => 'Pagina'
+        'ns' => 'app\\models'
+        'baseClass' => 'yii\\db\\ActiveRecord'
+        'db' => 'db'
+        'useTablePrefix' => '0'
+        'generateRelations' => 'all'
+        'generateRelationsFromCurrentSchema' => '1'
+        'generateLabelsFromComments' => '0'
+        'generateQuery' => '0'
+        'queryNs' => 'app\\models'
+        'queryBaseClass' => 'yii\\db\\ActiveQuery'
+        'enableI18N' => '0'
+        'messageCategory' => 'app'
+        'useSchemaName' => '1'
+        'template' => 'default'
+    ]
+    'preview' => ''
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1560752447.1487779982'
+    'PHPSESSID' => 'dvsnm5sgslr0972jtthtee5b03'
+    '_csrf' => '4664fae7d40e4d6fb063da1c4cdce0edd1461d59a10b8e469c317c039a6ba655a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"my1NpKQ7Jv0FBPMi4mo1rymszytJrK5F\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/geovanna/csv/programaYii/proyectoCSV/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '44628'
+    'SERVER_SOFTWARE' => 'PHP 5.6.33-0+deb8u1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=gii%2Fdefault%2Fview&id=model'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/geovanna/csv/programaYii/proyectoCSV/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=gii%2Fdefault%2Fview&id=model'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '767'
+    'HTTP_CONTENT_LENGTH' => '767'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36'
+    'HTTP_ORIGIN' => 'http://localhost:8080'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php?r=gii%2Fdefault%2Fview&id=model'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_ga=GA1.1.1560752447.1487779982; PHPSESSID=dvsnm5sgslr0972jtthtee5b03; _csrf=4664fae7d40e4d6fb063da1c4cdce0edd1461d59a10b8e469c317c039a6ba655a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22my1NpKQ7Jv0FBPMi4mo1rymszytJrK5F%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1519155022.5259
+    'REQUEST_TIME' => 1519155022
+]
+2018-02-20 19:30:47 [::1][-][dvsnm5sgslr0972jtthtee5b03][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'file_put_contents(/home/geovanna/csv/programaYii/proyectoCSV/runtime/gii-2.0.13.1/yii-gii-generators-model-Generator.json): failed to open stream: Permission denied' in /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2-gii/Generator.php:247
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'file_put_conten...', '/home/geovanna/...', 247, Array)
+#1 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2-gii/Generator.php(247): file_put_contents('/home/geovanna/...', '{"template":"de...')
+#2 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2-gii/controllers/DefaultController.php(60): yii\gii\Generator->saveStickyAttributes()
+#3 [internal function]: yii\gii\controllers\DefaultController->actionView('model')
+#4 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('view', Array)
+#7 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('gii/default/vie...', Array)
+#8 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /home/geovanna/csv/programaYii/proyectoCSV/web/index.php(12): yii\base\Application->run()
+#10 {main}
+2018-02-20 19:30:47 [::1][-][dvsnm5sgslr0972jtthtee5b03][info][application] $_GET = [
+    'r' => 'gii/default/view'
+    'id' => 'model'
+]
+
+$_POST = [
+    '_csrf' => '-FRoQ_KEIuK2ftVNYYH2StRamwp3UpyQFtu2NSJEYxOVLVkNgs9z1fwI5Qsj0bsj4Df0OwUr8eNsosJ_UA9WVQ=='
+    'Generator' => [
+        'tableName' => 'pagina'
+        'modelClass' => 'Pagina'
+        'ns' => 'app\\models'
+        'baseClass' => 'yii\\db\\ActiveRecord'
+        'db' => 'db'
+        'useTablePrefix' => '0'
+        'generateRelations' => 'all'
+        'generateRelationsFromCurrentSchema' => '1'
+        'generateLabelsFromComments' => '0'
+        'generateQuery' => '0'
+        'queryNs' => 'app\\models'
+        'queryBaseClass' => 'yii\\db\\ActiveQuery'
+        'enableI18N' => '0'
+        'messageCategory' => 'app'
+        'useSchemaName' => '1'
+        'template' => 'default'
+    ]
+    'preview' => ''
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1560752447.1487779982'
+    'PHPSESSID' => 'dvsnm5sgslr0972jtthtee5b03'
+    '_csrf' => '4664fae7d40e4d6fb063da1c4cdce0edd1461d59a10b8e469c317c039a6ba655a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"my1NpKQ7Jv0FBPMi4mo1rymszytJrK5F\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/geovanna/csv/programaYii/proyectoCSV/web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '44740'
+    'SERVER_SOFTWARE' => 'PHP 5.6.33-0+deb8u1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/index.php?r=gii%2Fdefault%2Fview&id=model'
+    'REQUEST_METHOD' => 'POST'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/geovanna/csv/programaYii/proyectoCSV/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'QUERY_STRING' => 'r=gii%2Fdefault%2Fview&id=model'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '767'
+    'HTTP_CONTENT_LENGTH' => '767'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://localhost:8080'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8080/index.php?r=gii%2Fdefault%2Fview&id=model'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_ga=GA1.1.1560752447.1487779982; PHPSESSID=dvsnm5sgslr0972jtthtee5b03; _csrf=4664fae7d40e4d6fb063da1c4cdce0edd1461d59a10b8e469c317c039a6ba655a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22my1NpKQ7Jv0FBPMi4mo1rymszytJrK5F%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1519155047.631
+    'REQUEST_TIME' => 1519155047
+]
+2018-02-20 20:22:46 [::1][-][dvsnm5sgslr0972jtthtee5b03][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'file_put_contents(/home/geovanna/csv/programaYii/proyectoCSV/runtime/gii-2.0.13.1/yii-gii-generators-model-Generator.json): failed to open stream: Permission denied' in /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2-gii/Generator.php:247
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(2, 'file_put_conten...', '/home/geovanna/...', 247, Array)
+#1 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2-gii/Generator.php(247): file_put_contents('/home/geovanna/...', '{"template":"de...')
+#2 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2-gii/controllers/DefaultController.php(60): yii\gii\Generator->saveStickyAttributes()
+#3 [internal function]: yii\gii\controllers\DefaultController->actionView('model')
+#4 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#5 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('view', Array)
+#7 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('gii/default/vie...', Array)
+#8 /home/geovanna/csv/programaYii/proyectoCSV/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 /home/geovanna/csv/programaYii/proyectoCSV/web/index.php(12): yii\base\Application->run()
+#10 {main}
+2018-02-20 20:22:45 [::1][-][dvsnm5sgslr0972jtthtee5b03][info][application] $_GET = [
+    'r' => 'gii/default/view'
+    'id' => 'model'
+]
+
+$_POST = [
+    '_csrf' => 'HWO_AeRaZE7XC4o6ZNWSzY-GdZKslyo7c4UIbyF5IuVwGo5PlBE1eZ19unwmhd-ku-sao97uR0gJ_HwlUzIXow=='
+    'Generator' => [
+        'tableName' => 'pagina'
+        'modelClass' => 'Pagina'
+        'ns' => 'app\\models'
+        'baseClass' => 'yii\\db\\ActiveRecord'
+        'db' => 'db'
+        'useTablePrefix' => '0'
+        'generateRelations' => 'all'
+        'generateRelationsFromCurrentSchema' => '1'
+        'generateLabelsFromComments' => '0'
+        'generateQuery' => '0'
+        'queryNs' => 'app\\models'
+        'queryBaseClass' => 'yii\\db\\ActiveQuery'
+        'enableI18N' => '0'
+        'messageCategory' => 'app'
+        'useSchemaName' => '1'
+        'template' => 'default'
+    ]
+    'preview' => ''
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1560752447.1487779982'
+    'PHPSESSID' => 'dvsnm5sgslr0972jtthtee5b03'
+    '_csrf' => '4664fae7d40e4d6fb063da1c4cdce0edd1461d59a10b8e469c317c039a6ba655a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"my1NpKQ7Jv0FBPMi4mo1rymszytJrK5F\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'USER' => 'www-data'
+    'HOME' => '/var/www'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => '/home/geovanna/csv/programaYii/proyectoCSV/web/index.php'
+    'QUERY_STRING' => 'r=gii%2Fdefault%2Fview&id=model'
+    'REQUEST_METHOD' => 'POST'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '767'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/index.php?r=gii%2Fdefault%2Fview&id=model'
+    'DOCUMENT_URI' => '/index.php'
+    'DOCUMENT_ROOT' => '/home/geovanna/csv/programaYii/proyectoCSV/web'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_SOFTWARE' => 'nginx/1.6.2'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '33458'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'SERVER_NAME' => 'mysite.local'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CONTENT_LENGTH' => '767'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://localhost'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/index.php?r=gii%2Fdefault%2Fview&id=model'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9'
+    'HTTP_COOKIE' => '_ga=GA1.1.1560752447.1487779982; PHPSESSID=dvsnm5sgslr0972jtthtee5b03; _csrf=4664fae7d40e4d6fb063da1c4cdce0edd1461d59a10b8e469c317c039a6ba655a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22my1NpKQ7Jv0FBPMi4mo1rymszytJrK5F%22%3B%7D'
+    'PHP_SELF' => ''
+    'REQUEST_TIME_FLOAT' => 1519158165.6888
+    'REQUEST_TIME' => 1519158165
+]
